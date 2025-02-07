@@ -1,2 +1,2 @@
 # nvim-config
-My personal configuration and extensions setup for Neovim
+Custom configuration and extensions setup for Neovim
