@@ -24,7 +24,12 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
     spec = {
+        "neovim/nvim-lspconfig"
     },
     install = { missing = true, colorscheme = { "habamax" } },
-    checker = { enabled = true },
+    checker = {
+        enabled = true,
+        notify = false,
+        frequency = 3600 * 36
+    },
 })
