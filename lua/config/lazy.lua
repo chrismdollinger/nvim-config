@@ -22,11 +22,15 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
+-- Link to Configuration: https://lazy.folke.io/configuration
 require("lazy").setup({
     spec = {
-        "neovim/nvim-lspconfig"
+        import = "plugins" -- source all .lua files the 'plugins' directory
     },
-    install = { missing = true, colorscheme = { "habamax" } },
+    install = {
+        missing = true,
+        colorscheme = { "habamax" }
+    },
     checker = {
         enabled = true,
         notify = false,
