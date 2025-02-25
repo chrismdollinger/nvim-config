@@ -36,4 +36,7 @@ require("lazy").setup({
         notify = false,
         frequency = 3600 * 36
     },
+    rocks = {
+        enabled = false
+    }
 })
