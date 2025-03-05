@@ -6,6 +6,7 @@ vim.g.loaded_netrw = 1
 require("config.lazy")
 require("config.lsp")
 require("config.fuzzyfinder")
+require("config.treesitter")
 vim.g.loaded_node_provider = 0
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_python3_provider = 0
