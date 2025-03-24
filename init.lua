@@ -18,4 +18,4 @@ vim.cmd('set shiftwidth=4')
 vim.cmd('let g:netrw_keepdir=0')
 vim.cmd('set nocp')
 
-vim.cmd("colorscheme evening")
+vim.cmd("colorscheme catppuccin-macchiato")
