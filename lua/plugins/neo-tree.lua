@@ -9,8 +9,11 @@ return {
     lazy = false,
     config = function()
         require("neo-tree").setup({
+            source_selector = {
+                winbar = true,
+                statusline = false
+            }
         })
-        vim.keymap.set("n", "<leader>ft", "Neotree reveal", { desc = "Neotree reveal" })
         vim.cmd("Neotree show")
     end
 }
