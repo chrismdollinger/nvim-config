@@ -21,7 +21,7 @@ end
 
 function lazy.setup()
     lazy.bootstrap()
-    require("lazy").setup()
+    require("lazy").setup("plugins")
 end
 
 return lazy
