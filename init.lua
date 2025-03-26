@@ -1,9 +1,11 @@
+local config = require("config")
+
 -- Make sure to setup `mapleader` and `maplocalleader`
 -- So that plugin mappings are correct.
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
-require("nvim-plug").setup()
+config.setup()
 
 -- Disable netrw (the default explorer)
 vim.g.loaded_netrwPlugin = 1
