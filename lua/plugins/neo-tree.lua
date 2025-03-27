@@ -14,6 +14,7 @@ return {
                 statusline = false
             }
         })
+        vim.keymap.set("n", "<leader>ft", "<Cmd>Neotree focus<CR>")
         vim.cmd("Neotree show")
     end
 }
