@@ -6,7 +6,8 @@ vim.g.maplocalleader = "  "
 vim.cmd('set expandtab')
 vim.cmd('set tabstop=4')
 vim.cmd('set shiftwidth=4')
-vim.keymap.set("n","<C-W>t","<cmd>tab split<cr>")
+vim.keymap.set("n","<C-W>t","<cmd>tabnew<cr>")
+vim.keymap.set("n","<C-W><C-T>","<cmd>tab split<cr>")
 vim.cmd('colorscheme evening')
 
 -- Last, load and configures plugins with Lazy
