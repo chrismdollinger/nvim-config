@@ -12,5 +12,8 @@ vim.keymap.set("n","<C-W><C-B>","<cmd>vsplit<cr>")
 vim.keymap.set("n","<C-W><C-V>","<cmd>split<cr>")
 vim.cmd('colorscheme evening')
 
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
 -- Last, load and configures plugins with Lazy
 require("config.lazy")
