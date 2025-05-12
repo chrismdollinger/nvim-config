@@ -7,4 +7,6 @@ lsp.csharp_ls.setup({ capabilities = capabilities })
 lsp.lua_ls.setup({ capabilities = capabilities })
 lsp.nushell.setup({ capabilities = capabilities })
 
+vim.lsp.enable("bashls");
+
 return M
