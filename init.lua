@@ -10,6 +10,8 @@ vim.keymap.set("n","<C-W>t","<cmd>tabnew<cr>")
 vim.keymap.set("n","<C-W><C-T>","<cmd>tab split<cr>")
 vim.keymap.set("n","<C-W><C-B>","<cmd>vsplit<cr>")
 vim.keymap.set("n","<C-W><C-V>","<cmd>split<cr>")
+vim.keymap.set("n","<C-W><S-V>","<cmd>split +terminal<cr>")
+vim.keymap.set("n","<C-W><S-B>","<cmd>vsplit +terminal<cr>")
 vim.cmd('colorscheme evening')
 
 vim.opt.splitright = true
